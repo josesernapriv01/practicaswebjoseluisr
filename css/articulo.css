@@ -1,0 +1,110 @@
+/*DOCUMENTI CSS */
+* { margin: 0;
+    padding: 0;}
+
+body { font-family: "Anton", sans-serif;
+       }
+
+
+.cabecera { width: 100%;
+            text-align: center;
+            font-size: 6em;
+            color: #f5f7fa;
+            background-color: #0b5bbb;
+            padding: 10px;}
+
+div.accion a { background-color: #0b5bbb;
+               display: block;
+               width: 300px;
+               text-align: center;
+               padding: 8px 0px;
+               color: #f5f7fa;
+               text-decoration:  none;
+               border-radius: 8px;
+               margin: 16px auto;
+               font-family: Arial, Helvetica, sans-serif;}
+
+div.accion a:hover { background-color: aqua;}
+
+div.accion a:active { background-color: #0f0e6d;}
+
+.contenido p:nth-child(7){ background: rgb(199, 89, 89)    ;
+                           border:1px dotted rgb(10, 10, 10);
+                           padding: 16px;
+                           border-radius: 8px;
+                           box-shadow: 2px 2px 3px black;
+                           width: 60%;
+                           margin: 16px auto;}
+
+#texto::before, #texto::after{ content:"";
+                               display: block;
+                               width: 20px;
+                               height: 20px;
+                               background-image: url(../img/exclamation-triangle-fill.svg);
+                               background-size: cover;
+                               }
+
+#texto::after { position: relative;
+                left: 680px;
+               }
+               
+#texto { text-align: center;
+         color: #2e0808;}
+
+.cuerpo { width: 85%;
+          margin: 0px auto; }
+
+img.imagenuno { width: 100%;
+                height: auto;}
+
+.contenedor img { width: 100%;
+                  height: auto;}
+
+.contenedor { display: flex;}
+
+.items { width: 50%;
+         min-height: 1px;}
+
+.items2 { 
+          width: 33.33%;
+          min-height: 1px}
+        
+.video iframe { width: 100%;
+                height: 450px;}
+
+.video { padding: 50px;
+         width: 50%;
+         min-height: 1px;
+         margin: auto;}
+
+h1 { font-weight: 100;
+     text-align: center;
+     font-size: 5em;
+     text-transform: uppercase;
+     padding: 50px;
+     margin: 0 auto;}
+
+h2,h3,h4 { font-family:Arial, Helvetica, sans-serif;}
+
+h2 { text-align: center;
+     font-size: 1.5em;
+     text-transform: uppercase;
+     padding: auto 50px;
+     margin: 0 auto;}
+
+p { font-family:Arial, Helvetica, sans-serif;
+    padding: 10px;}
+
+.datouno { padding: 10px;}
+
+.datodos { padding: 50px;}
+
+.consejos { background-color: #0b5bbb;
+            padding: 35px;
+            color: #f5f7fa;
+            border-radius: 8px;
+           }
+
+.consejos h3 {  text-transform: uppercase;}
+
+li { font-weight: 100;}

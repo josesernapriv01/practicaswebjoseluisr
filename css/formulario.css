@@ -1,0 +1,59 @@
+/*DOCUMENTI CSS */
+
+
+* { margin: 0;
+    padding: 0;}
+
+
+section.atajos,.info { width: 100%;
+                        min-height: 1px;
+                        padding: 60px 0px;
+                        background-color: whitesmoke;}
+
+.info { background-color: white;}
+
+
+div.container { width: 80%;
+                padding: 16px;
+                margin: 0px auto;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                min-height: 1px;
+                align-items: flex-start;}
+
+
+
+
+.tres { align-self: flex-start;}
+
+
+
+
+div.items { width: 23%;
+            text-align: center;
+            min-height: 1px;}
+
+
+
+div.items img { width: 100%;
+                height: auto;
+                border-radius: 8px;}
+
+
+.items1 { width: 60%; }
+
+.items2 { width: 40%; }
+
+.items2 input, textarea { width: 100%;
+                          padding: 8px;
+                          display: block;
+                          box-sizing: border-box;
+                          margin-bottom: 8px;
+                          border-radius: 8px;
+                          border: 1px solid black;}
+
+.items2 textarea { min-height: 100px;
+                   max-width: 100%;
+                   min-width: 100%;}

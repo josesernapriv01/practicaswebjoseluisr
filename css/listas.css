@@ -1,0 +1,39 @@
+/* DOCUMMENTO CSS */
+
+* { margin: 0;}
+
+body { font-family: Arial, Helvetica, sans-serif;}
+
+h1 { text-align: center;
+     font-size: 2em;
+     background-color: rgb(96, 10, 10);
+     color: #ffffff;
+     padding: 8px 0px;
+     }
+
+h2 { text-decoration: underline;
+     padding-bottom: 8px;
+     font-size: 1.4em;}
+
+header.cabecera { background-color: blanchedalmond;
+            padding: 16px 0px;
+            margin-bottom: 16px;}
+
+.temas { padding: 16px 0px;
+         width: 70%;
+         margin:  0px auto;
+         border-bottom: #9e9c9c solid 4px;
+         }
+
+.temas ol, .temas ul { padding-bottom: 16px;}
+
+.temas p { line-height: 180%;
+           padding-bottom: 24px;}
+
+.pie { text-align: center;
+background-color: #5e5e5e;
+margin-top: 25px;
+padding: 16 0px;}
+
+#tablas { border-bottom: none;}
+ 

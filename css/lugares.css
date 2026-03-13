@@ -1,0 +1,52 @@
+/*DOCUMENTI CSS */
+
+* { margin: 0;}
+
+body { font-family: Arial, Helvetica, sans-serif;
+       background-color: #5f2525;}
+
+h1 { font-size: 4em;
+     text-align: center;
+     background-color: brown;
+     color: white;
+     padding: 8px 0px;
+     text-transform: uppercase;}
+
+h2 { font-size: 2.5em; 
+     text-align: center;
+     padding: 4px 0px;
+     text-transform: uppercase;
+     font-weight:bold;}
+
+h3, h4 { font-size: 1.5em;
+         text-align: center;
+         padding: 4px 0px;
+         text-transform: uppercase;
+         font-weight:bolder;}
+
+header.cabecera { background-color: rgb(117, 34, 34);
+                  padding: 16px 0px;
+                  margin-bottom: 16px;}
+
+div img  { margin: 16px auto;
+            display: flex;
+            justify-self: center;}
+
+div p { padding: 16px;
+        line-height: 140%;
+        font-size: 18px;
+        align-items: center;}
+
+.temas { padding: 16px 0px;
+         width: 70%;
+         margin:  0px auto;
+         border-bottom: #9e9c9c solid 18px; 
+         background-color: #e2e2e2;}
+
+.pie { text-align: center;
+       background-color: brown;
+       color: white;
+       margin-top: 25px;
+       padding: 20px 0px;}
+
+
